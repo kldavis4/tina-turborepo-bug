@@ -1,0 +1,7 @@
+# .husky
+# .next
+# .vercel
+# node_modules
+# supabase
+# tsconfig.json
+# lib/database.types.ts

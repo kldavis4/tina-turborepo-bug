@@ -1,0 +1,26 @@
+{
+  "name": "react-email-turborepo-pnpm-example",
+  "private": true,
+  "scripts": {
+    "build": "turbo build --filter=!react-email-client",
+    "dev": "turbo dev --filter=!react-email-client",
+    "lint": "turbo lint --filter=!react-email-client",
+    "format": "prettier --write \"**/*.{ts,tsx,md}\""
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^6.11.0",
+    "@typescript-eslint/parser": "^6.11.0",
+    "@vercel/style-guide": "^5.1.0",
+    "eslint-config-prettier": "^9.0.0",
+    "eslint-config-turbo": "^1.10.12",
+    "eslint-plugin-only-warn": "^1.1.0",
+    "next": "^14.2.3",
+    "prettier": "^3.1.0",
+    "turbo": "^1.11.3",
+    "typescript": "^5.2.2"
+  },
+  "packageManager": "pnpm@9.1.4",
+  "dependencies": {
+    "embla-carousel-react": "^8.1.5"
+  }
+}

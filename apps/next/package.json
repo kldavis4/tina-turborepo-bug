@@ -1,0 +1,29 @@
+{
+  "name": "next",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "build": "tinacms build && next build",
+    "start": "next start",
+    "dev": "tinacms dev -c \"next dev\""
+  },
+  "dependencies": {
+    "next": "^14.2.3",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "tinacms": "^1.6.4"
+  },
+  "devDependencies": {
+    "@tailwindcss/aspect-ratio": "^0.4.2",
+    "@tailwindcss/forms": "^0.5.7",
+    "@tailwindcss/typography": "^0.5.10",
+    "@tinacms/cli": "^1.5.46",
+    "add": "^2.0.6",
+    "autoprefixer": "10.4.13",
+    "encoding": "^0.1.13",
+    "postcss": "8.4.32",
+    "tailwindcss": "3.2.4",
+    "transactional": "workspace:*",
+    "typescript": "^5.3.3"
+  }
+}

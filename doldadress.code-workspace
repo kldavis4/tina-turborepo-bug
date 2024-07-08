@@ -1,0 +1,20 @@
+{
+  "folders": [
+    {
+      "name": "monorepo",
+      "path": "."
+    },
+    {
+      "name": "docs",
+      "path": "apps/docs"
+    },
+    {
+      "name": "next",
+      "path": "apps/next"
+    },
+    {
+      "name": "react-email",
+      "path": "packages/transactional"
+    }
+  ]
+}

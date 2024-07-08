@@ -1,0 +1,9 @@
+{
+  "eslint.workingDirectories": [
+    {
+      "mode": "auto"
+    }
+  ],
+  "doppler.autocomplete.enable": true,
+  "doppler.hover.enable": true
+}
